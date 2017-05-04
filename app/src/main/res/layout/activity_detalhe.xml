@@ -7,23 +7,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="caraoucoroa.cursoandroid.com.caraoucoroa.MainActivity"
+    tools:context="caraoucoroa.cursoandroid.com.caraoucoroa.DetalheActivity"
     android:background="#61bd8c">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
+        android:id="@+id/imageView3"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/logo" />
+        android:background="@drawable/moeda_cara" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:layout_below="@+id/imageView"
+        android:id="@+id/imageView4"
+        android:background="@drawable/botao_voltar"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/botao_jogar" />
+        android:layout_marginBottom="49dp" />
 </RelativeLayout>
